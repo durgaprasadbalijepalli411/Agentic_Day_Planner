@@ -13,8 +13,8 @@ load_dotenv()
 os.environ["CREWAI_TRACING_ENABLED"] = "false"
 
 
-API_KEY = "AIzaSyB1amnaa8-pLFW1WMumnp9pxh1W7M6y770"
-CLAUDE_API_KEY="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"
+API_KEY = "AIzaSyBXXXXXXXXXXXxh1W7M6y770"
+CLAUDE_API_KEY="sk-ant-api03XXXXXXXXXXXQNjhSBgMEShQ-VYcqJwAA"
 
 
 def build_llm() -> LLM:
@@ -203,3 +203,4 @@ def plan_day_workflow(
         "commitments": commitments or "",
         "adjustments": adjustments or "",
     }
+
